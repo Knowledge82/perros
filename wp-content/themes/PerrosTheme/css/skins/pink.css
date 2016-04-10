@@ -1,0 +1,122 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #D60270; }
+
+p,
+body .main_footer,
+.s_about li {
+  color: #888; }
+
+.main_footer {
+  letter-spacing: 0px; }
+
+.color_element {
+  color: #D60270; }
+
+.color_bg {
+  background-color: #D60270; }
+
+.color_border {
+  border-color: #D60270; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.main_color_bg {
+  background-color: #222; }
+
+svg path {
+  fill: #888; }
+
+.toggle_mnu {
+  background-color: #222;
+  border: none;
+  right: 20px;
+  top: 20px;
+  position: fixed; }
+
+.top_mnu a:hover {
+  color: #D60270;
+  background-color: rgba(255, 255, 255, 0.08); }
+.top_mnu a {
+  color: #fff;
+  letter-spacing: 4px; }
+
+.top_descr h1 {
+  letter-spacing: 3px; }
+.top_descr p {
+  color: #FAFAFA;
+  letter-spacing: 4px; }
+
+.s_descr {
+  letter-spacing: 5px; }
+  .s_descr::after {
+    background-color: #222; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+section .personal_header {
+  letter-spacing: 2px; }
+
+.s_about p:nth-child(even) {
+  color: #D60270; }
+
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px; }
+
+.resume_item .year {
+  background-color: #D60270; }
+.resume_item .resume_description {
+  letter-spacing: 1px; }
+
+.s_portfolio .section_content li {
+  letter-spacing: 2px;
+  color: #888; }
+  .s_portfolio .section_content li.active {
+    color: #fff;
+    border-bottom: 1px solid #D60270; }
+
+.s_portfolio .section_content #portfolio_grid .portfolio_item .port_item_cont a {
+  border-color: #D60270;
+  color: #D60270; }
+
+.main_footer a {
+  color: #D60270; }
+
+.s_contacts .section_content .contact_box .contact_icons {
+  color: #D60270; }
+
+.text-danger {
+  color: #D60270; }
+
+.s_contacts .section_content form input:focus,
+.s_contacts .section_content form textarea:focus {
+  outline: none;
+  border: 1px solid #D60270; }
+  .s_contacts .section_content form input:focus::placeholder,
+  .s_contacts .section_content form textarea:focus::placeholder {
+    color: #D60270; }
+.s_contacts .section_content form input,
+.s_contacts .section_content form textarea {
+  letter-spacing: 2px; }
+.s_contacts .section_content form button {
+  background-color: #D60270;
+  letter-spacing: 3px; }
+.s_contacts .section_content form .form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
+/*# sourceMappingURL=pink.css.map */

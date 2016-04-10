@@ -1,0 +1,140 @@
+@import "../bourbon/bourbon"
+
+$color: #2EA2CC //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+
+
+a
+	color: $color
+
+p,
+body .main_footer,
+.s_about li
+	color: $text_color
+
+.main_footer
+	+kerning(0)
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+.bg_light
+	background-color: $bg_light
+
+.bg_dark
+	background-color: $main_color
+	color: #fff
+	.s_descr::after
+		background-color: #fff
+	a
+		color: #fff
+
+.main_color_bg
+	background-color: $main_color
+
+svg
+	path
+		fill: $text_color
+
+.toggle_mnu
+	background-color: $main_color
+	border: none
+	right: 20px
+	top: 20px
+	position: fixed
+
+.top_mnu
+	a:hover
+		color: $color
+		background-color: rgba(255,255,255,.08)
+		
+	a
+		color: #fff
+		+kerning(4)
+
+.top_descr
+	h1
+		+kerning(3)
+	p
+		color: $bg_light
+		+kerning(4)
+
+.s_descr
+	+kerning(5)
+	&::after
+		background-color: $main_color
+
+section
+	h3
+		+kerning(3)
+		color: $text_color
+	.personal_header
+		+kerning(2)
+
+.s_about
+	p:nth-child(even)
+		color: $color
+		
+.resume_container
+	h3
+		color: $main_color
+		+kerning(1)
+
+.resume_item
+	.year
+		background-color: $color
+	.resume_description
+		+kerning(1)
+
+.s_portfolio .section_content
+	li
+		+kerning(2)
+		color: $text_color
+		&.active
+			color: #fff
+			border-bottom: 1px solid $color
+
+.s_portfolio .section_content #portfolio_grid .portfolio_item .port_item_cont
+	a
+		border-color: $color
+		color: $color
+
+.main_footer a
+	color: $color
+
+.s_contacts .section_content .contact_box .contact_icons
+	color: $color
+
+.text-danger
+	color: $color
+
+.s_contacts .section_content form
+	input:focus,
+	textarea:focus
+		outline: none
+		border: 1px solid $color
+		&::placeholder
+			color: $color
+	input,
+	textarea
+		+kerning(2)
+	button
+		background-color: $color
+		+kerning(3)
+	.form-group
+		+kerning(2)
+		color: $text_color
